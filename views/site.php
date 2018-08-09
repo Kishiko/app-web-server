@@ -112,6 +112,7 @@ echo fieldset_footer();
 //-------------------
 
 echo fieldset_header(lang('web_server_upload_access'));
+echo field_input('location', "var/www/html", lang('web_server_upload_physical_location'), $site_read_only);
 echo field_dropdown('group', $groups, $info['ShareGroup'], lang('groups_group'), $read_only);
 
 if ($ftp_available)
