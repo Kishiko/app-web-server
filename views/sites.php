@@ -109,6 +109,7 @@ foreach ($sites as $site => $info) {
         $web_site,
         $access,
         $info['ShareGroup'],
+        phpversion(),
     );
 
     $items[] = $item;
