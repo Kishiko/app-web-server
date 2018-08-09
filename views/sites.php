@@ -45,6 +45,7 @@ $headers = array(
     lang('web_server_web_site'),
     lang('web_server_upload_access'),
     lang('groups_group'),
+    lang('web_server_php_version'),
 );
 
 ///////////////////////////////////////////////////////////////////////////////
